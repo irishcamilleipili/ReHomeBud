@@ -57,7 +57,7 @@ export default function Signup() {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../assets/y.jpg")}
+        source={require("../assets/raw.png")}
         style={styles.logo}
         resizeMode="contain"
       />

@@ -100,7 +100,7 @@ export default function Pets() {
   return (
     <View style={styles.container}>
       
-      <Image source={require("../assets/y.jpg")} style={styles.logo} />
+      <Image source={require("../assets/raw.png")} style={styles.logo} />
 
       <Text style={styles.title}>Manage Your Pets</Text>
       <Text style={styles.subtitle}>Add and track your pet’s info</Text>

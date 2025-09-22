@@ -24,7 +24,7 @@ export default function Splash() {
     <View style={styles.container}>
       <Animated.View style={{ opacity: fadeAnim, alignItems: "center" }}>
         <Image
-          source={require("../assets/y.jpg")} 
+          source={require("../assets/raw.png")} 
           style={styles.logo}
           resizeMode="contain"
         />
