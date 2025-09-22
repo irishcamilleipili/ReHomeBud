@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ReHomeBud",
+    "slug": "ReHomeBud",
+    "scheme": "ReHomeBud",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/y.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/y.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/y.jpg",
+        "backgroundColor": "#5472bfff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/y.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e3af282d-b0fd-46db-8999-d68ed630bf65"
+      }
+    }
+  }
+}
