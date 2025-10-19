@@ -24,7 +24,7 @@ export default function Splash() {
     <View style={styles.container}>
       <Animated.View style={{ opacity: fadeAnim, alignItems: "center" }}>
         <Image
-          source={require("../assets/raw.png")} 
+          source={require("../assets/f.png")} 
           style={styles.logo}
           resizeMode="contain"
         />
@@ -39,16 +39,16 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#bcd1f1",
+    backgroundColor: "#FAF8F5", // PEARL – soft, elegant base background
   },
   logo: {
     width: 220,
     height: 220,
-    marginBottom: 6, 
+    marginBottom: 6,
   },
   title: {
     fontSize: 32,
-    color: "#5472bfff",
+    color: "#4D403A", // CACAO – rich accent color for text
     fontFamily: "Poppins_600SemiBold",
   },
 });

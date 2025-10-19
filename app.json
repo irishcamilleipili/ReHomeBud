@@ -13,20 +13,23 @@
       "package": "com.camille3.rehomebud",
       "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/raw.png",
+        "foregroundImage": "./assets/f.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/raw.png"
+      "favicon": "./assets/f.png"
     },
     "plugins": [
       "expo-router",
       "expo-font"
     ],
     "extra": {
-      "router": {}
+      "router": {},
+      "eas": {
+        "projectId": "c9eeab03-3e10-46d8-b57e-f887e3c19ff8"
+      }
     }
   }
 }
